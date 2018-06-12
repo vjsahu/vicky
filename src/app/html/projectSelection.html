@@ -1,0 +1,47 @@
+<div>
+<div class="container-fluid">
+
+    <div class="row">
+
+        <div class="col-lg-8">
+  
+
+    <button  style="float: right;margin-right: 40px;padding: 5px;margin-top: 10px;background-color:blue; " >Sign Out</button>                                               
+
+</div> 
+
+       <div class="col-sm-4">
+
+           <button style="float: right;margin-right:30px;padding: 5px;margin-top: 10px;background-color:blue; ">Admin</button>                                                
+
+        </div>                  
+
+    </div>
+
+</div>
+
+    <br><br><br>
+
+    <h2 style="text-align: center;">Project Selection Page</h2>
+
+  
+
+       <div class="form-group" style="margin-left: 40px" >
+
+      <label for="sel1">
+      Select Project:
+    </label>
+    <select   [(ngModel)]="selectedDropdown" (change)="dropdownData($event.target.value)" >
+      <option *ngFor="let data of datas">{{data.ProjectSelection}}</option>
+   </select>
+
+
+    </div>
+
+  
+
+ <router-outlet  ></router-outlet>
+
+
+  
+</div>

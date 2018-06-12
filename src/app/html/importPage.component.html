@@ -1,0 +1,18 @@
+<div>
+  Type:<select    >
+      <option *ngFor="let type of types">{{type.typeScenario}}</option>
+   </select>
+<br>
+<br>
+<br>
+ priority:<select  >
+      <option *ngFor="let priority of priorities">{{priority.priorityScenario}}</option>
+   </select>
+   <br>
+   <br>
+   <br>
+Estimated Time:<input type="time" step="1" >
+<br>
+<button>Import1</button>
+ <router-outlet></router-outlet>  
+</div>
