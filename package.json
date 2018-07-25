@@ -1,5 +1,6 @@
 {
   "name": "my-app",
+  "main": "server.js",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
@@ -21,7 +22,15 @@
     "@angular/platform-browser": "^5.2.0",
     "@angular/platform-browser-dynamic": "^5.2.0",
     "@angular/router": "^5.2.0",
+    "@ng-bootstrap/ng-bootstrap": "^2.0.0",
+    "bootstrap": "^4.0.0-alpha.6",
     "core-js": "^2.4.1",
+    "express": "^4.16.3",
+    "jquery": "^3.3.1",
+    "method-override": "^2.3.10",
+    "mongodb": "^3.1.0-beta4",
+    "mongojs": "^2.5.0",
+    "mongoose": "^5.1.1",
     "rxjs": "^5.5.6",
     "zone.js": "^0.8.19"
   },
