@@ -1,3 +1,4 @@
+
  
   div.j {
     background-color: lightgrey;
@@ -9,6 +10,10 @@
 h1 {
     text-align: center;
 }
+     div.h {
+    float: center;
+  padding : 20px;
+      }
       div.g {
     float: right;
       }
@@ -28,7 +33,10 @@ h1 {
             border: 3px solid black;
             
         }
+     /*   th.clicked:active{
+    background-color: yellow;
 
+        }*/
       
         body {
             background-color: cyan;
@@ -48,8 +56,30 @@ h1 {
 
 th.active:{
   background-color: lightgrey;
-
+/*color: #fafafa;*/
+/*-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;*/
 }
+
+ .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 13px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button1 {background-color: #008CBA;} /* Blue */
+.button2 {   
+             background-color: #f44336;} /* Red */ 
+.button3 {background-color: #555555;} /* Black */
 
 
 

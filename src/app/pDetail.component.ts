@@ -7,7 +7,7 @@ import { ActivatedRoute, Router } from '@angular/router';
  
   templateUrl:'./html/projectDetail.html',
 
-   styleUrls: ['./pDetail.component.css'],
+   styleUrls: ['./css/pDetail.component.css'],
 
        
 
@@ -17,13 +17,14 @@ export class ProjectDetailComponent implements OnInit  {
  
 
     projectName:string;
-
+ moduleName:string;
+  moduleChild:string;
 
     show: boolean;
-
+testExecution:boolean;
     constructor(private router: Router,private route:ActivatedRoute) {
     this.show = false;
- 
+ this.testExecution=false;
     }
  
  
@@ -33,15 +34,23 @@ export class ProjectDetailComponent implements OnInit  {
 
              let dataFromProjectSelectionDropdown=sessionStorage.getItem('key');
              this.projectName=dataFromProjectSelectionDropdown;
+             this.moduleName="gg";
+             this.moduleChild="cc"
 
       }
  
     message:string;
  
         changeShowStatus(){
-
+//alert("1")
            this.show = true;
+           this.testExecution=false;
  
+        }
+        showTestExecution(){
+//alert("2")
+this.show = false;
+   this.testExecution=true;
         }
 
         goCreateModule(){

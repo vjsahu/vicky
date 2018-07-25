@@ -68,6 +68,14 @@ app.get('/importPriority',function(req,res){
         // console.log("mm"+doc)
     })
 })
+app.get('/detailProject',function(req,res){
+     
+  
+    db.moduleName.find({},function(err,doc){        
+        res.json(doc);
+        // console.log("mm"+doc)
+    })
+})
 app.post('/postModuleName',function(req,res)
 {
    //var moduleName=req.params.moduleName;

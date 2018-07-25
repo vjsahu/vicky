@@ -14,6 +14,7 @@ import { ProjectSelectionServiceComponent } from './projectSelection.service';
 import {SelectionComponent } from './projectSelection.component';
 import { ModuleComponent } from './module.component';
 import { FeatureComponent } from './featurePage.component';
+import { TestExecutionComponent } from './testExecution.component';
 import{ModuleServiceComponent} from './modulePage.service';
 import{FeatureServiceComponent} from './featurePage.service';
 import{ImportComponent} from './importPage.component';
@@ -48,7 +49,7 @@ children:[
       ,NgbModule,FormsModule
   ],
   declarations: [
-   AppComponent, ProjectDetailComponent,ImportComponent,LoginComponent,SelectionComponent,ModuleComponent,FeatureComponent],
+   AppComponent,TestExecutionComponent , ProjectDetailComponent,ImportComponent,LoginComponent,SelectionComponent,ModuleComponent,FeatureComponent],
  
  
   providers: [LoginServiceComponent,ImportServiceComponent,ProjectSelectionServiceComponent,ModuleServiceComponent,FeatureServiceComponent],
