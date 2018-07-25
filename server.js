@@ -52,6 +52,7 @@ app.get('/selectionProject',function(req,res){
         // console.log("mm"+doc)
     })
 })
+<<<<<<< HEAD
 app.get('/importType',function(req,res){
      
   console.log("kkkkkkkkkkkkkkkkkkkkk")
@@ -76,6 +77,9 @@ app.get('/detailProject',function(req,res){
         // console.log("mm"+doc)
     })
 })
+=======
+
+>>>>>>> 589e29fdd949b83d680e6a10f4e8965c022d7425
 app.post('/postModuleName',function(req,res)
 {
    //var moduleName=req.params.moduleName;
